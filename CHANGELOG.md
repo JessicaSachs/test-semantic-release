@@ -3,6 +3,13 @@
 All notable changes to this project will be documented in this file. See
 [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [1.2.0](https://github.com/jessicasachs/test-semantic-release/compare/v1.1.0...v1.2.0) (2025-06-18)
+
+
+### Features
+
+* **thing:** my scope doing things ([7189aa6](https://github.com/jessicasachs/test-semantic-release/commit/7189aa69e5d535742c905d039b58d1c0903203a5))
+
 # [1.1.0](https://github.com/jessicasachs/test-semantic-release/compare/v1.0.0...v1.1.0) (2025-06-18)
 
 
