@@ -3,7 +3,12 @@
 	"repositoryUrl": "https://github.com/jessicasachs/test-semantic-release",
 	"plugins": [
 		"@semantic-release/commit-analyzer",
-		"@semantic-release/release-notes-generator",
+		["@semantic-release/release-notes-generator", {
+			"writerOpts": {
+				"commitsSort": ["subject", "scope"],
+				"headerPattern": "# Merp? ${version} (${date})"
+			}
+		}],
 		[
 			"@semantic-release/changelog",
 			{
