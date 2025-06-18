@@ -23,6 +23,9 @@ importers:
       '@semantic-release/release-notes-generator':
         specifier: ^14.0.3
         version: 14.0.3(semantic-release@24.2.5)
+      conventional-changelog-eslint:
+        specifier: ^6.0.0
+        version: 6.0.0
       semantic-release:
         specifier: ^24.2.5
         version: 24.2.5
@@ -294,6 +297,10 @@ packages:
 
   conventional-changelog-angular@8.0.0:
     resolution: {integrity: sha512-CLf+zr6St0wIxos4bmaKHRXWAcsCXrJU6F4VdNDrGRK3B8LDLKoX3zuMV5GhtbGkVR/LohZ6MT6im43vZLSjmA==}
+    engines: {node: '>=18'}
+
+  conventional-changelog-eslint@6.0.0:
+    resolution: {integrity: sha512-eiUyULWjzq+ybPjXwU6NNRflApDWlPEQEHvI8UAItYW/h22RKkMnOAtfCZxMmrcMO1OKUWtcf2MxKYMWe9zJuw==}
     engines: {node: '>=18'}
 
   conventional-changelog-writer@8.1.0:
@@ -1553,6 +1560,8 @@ snapshots:
   conventional-changelog-angular@8.0.0:
     dependencies:
       compare-func: 2.0.0
+
+  conventional-changelog-eslint@6.0.0: {}
 
   conventional-changelog-writer@8.1.0:
     dependencies:
