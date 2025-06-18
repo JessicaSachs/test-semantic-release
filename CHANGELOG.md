@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file. See
 [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## Merp? 1.4.0 (2025-06-18)
+
+### Features
+
+* newer release notes format ([916489b](https://github.com/jessicasachs/test-semantic-release/commit/916489b73c7b28690e4010640a01af06418a39bc))
+
 # [1.3.0](https://github.com/jessicasachs/test-semantic-release/compare/v1.2.0...v1.3.0) (2025-06-18)
 
 
