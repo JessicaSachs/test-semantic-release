@@ -3,6 +3,18 @@
 All notable changes to this project will be documented in this file. See
 [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [1.3.0](https://github.com/jessicasachs/test-semantic-release/compare/v1.2.0...v1.3.0) (2025-06-18)
+
+
+### Bug Fixes
+
+* sticking with angular commits ([fd8823e](https://github.com/jessicasachs/test-semantic-release/commit/fd8823e6d126b1488c340c9759a9ea2a7a18a1fb))
+
+
+### Features
+
+* hmm ([78cdc6a](https://github.com/jessicasachs/test-semantic-release/commit/78cdc6a8a9919f2ec524e3f31ee39b83865cfc86))
+
 # [1.2.0](https://github.com/jessicasachs/test-semantic-release/compare/v1.1.0...v1.2.0) (2025-06-18)
 
 
