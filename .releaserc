@@ -2,7 +2,15 @@
 	"branches": ["main", "next"],
 	"repositoryUrl": "https://github.com/jessicasachs/test-semantic-release",
 	"plugins": [
-		"@semantic-release/commit-analyzer",
+		["@semantic-release/commit-analyzer", {
+        "preset": "eslint",
+        "releaseRules": [
+					{ "type": "patch", "release": "patch" },
+          { "type": "docs", "scope": "README", "release": "patch" },
+          { "type": "refactor", "release": "patch" },
+          { "scope": "no-release", "release": false }
+        ]
+      }],
 		["@semantic-release/release-notes-generator", {
 			"writerOpts": {
 				"commitsSort": ["subject", "scope"],
